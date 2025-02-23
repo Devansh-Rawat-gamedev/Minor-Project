@@ -1,0 +1,11 @@
+prefix=C:/Users/akki2/breakout/out/install/x86-Debug
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenAL
+Description: OpenAL is a cross-platform 3D audio API
+Requires: 
+Version: 1.18.0
+Libs: -L${libdir} -lOpenAL32 
+Cflags: -I${includedir} -I${includedir}/AL 

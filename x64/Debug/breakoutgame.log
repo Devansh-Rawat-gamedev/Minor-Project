@@ -1,0 +1,372 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: Two or more files with the name of CMakeCXXCompilerId.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are build\vs\x64-debug\cmakefiles\3.27.2-msvc1\compileridcxx\CMakeCXXCompilerId.cpp, build\vs\x86-debug\cmakefiles\3.27.2-msvc1\compileridcxx\CMakeCXXCompilerId.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: Two or more files with the name of CMakeCCompilerId.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are build\vs\x64-debug\cmakefiles\3.27.2-msvc1\compileridc\CMakeCCompilerId.c, build\vs\x86-debug\cmakefiles\3.27.2-msvc1\compileridc\CMakeCCompilerId.c.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: Two or more files with the name of main.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are externals\glew\build\cmake\testbuild\main.c, externals\stb\tests\caveview\main.c, externals\stb\tests\oversample\main.c.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: Two or more files with the name of wave.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are externals\glfw\examples\wave.c, externals\openal-soft\alc\backends\wave.c.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: Two or more files with the name of threads.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are externals\glfw\tests\threads.c, externals\openal-soft\common\threads.c.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: Two or more files with the name of dummy.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are externals\glm\glm\detail\dummy.cpp, externals\glm\test\external\gli\core\dummy.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: Two or more files with the name of null.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are externals\openal-soft\alc\backends\null.c, externals\openal-soft\alc\effects\null.c.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: Two or more files with the name of main.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are externals\openal-soft\utils\alsoft-config\main.cpp, src\main.cpp.
+  CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+  dummy.cpp
+  glm.cpp
+C:\Users\akki2\breakout\externals\glm\glm\detail\glm.cpp(5,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  bug_ms_vec_static.cpp
+C:\Users\akki2\breakout\externals\glm\test\bug\bug_ms_vec_static.cpp(2,10): error C1083: Cannot open include file: 'glm/vec2.hpp': No such file or directory
+  core_force_pure.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_force_pure.cpp(6,10): error C1083: Cannot open include file: 'glm/vector_relational.hpp': No such file or directory
+  core_force_unrestricted_gentype.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_force_unrestricted_gentype.cpp(3,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  core_func_common.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_func_common.cpp(2,10): error C1083: Cannot open include file: 'glm/common.hpp': No such file or directory
+  core_func_exponential.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_func_exponential.cpp(1,10): error C1083: Cannot open include file: 'glm/common.hpp': No such file or directory
+  core_func_geometric.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_func_geometric.cpp(1,10): error C1083: Cannot open include file: 'glm/geometric.hpp': No such file or directory
+  core_func_integer.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_func_integer.cpp(1,10): error C1083: Cannot open include file: 'glm/integer.hpp': No such file or directory
+  core_func_integer_bit_count.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_func_integer_bit_count.cpp(167,9): warning C4244: 'return': conversion from 'unsigned __int64' to 'int', possible loss of data
+  core_func_integer_find_lsb.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_func_integer_find_lsb.cpp(138,10): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\akki2\breakout\externals\glm\test\core\core_func_integer_find_lsb.cpp(152,10): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\akki2\breakout\externals\glm\test\core\core_func_integer_find_lsb.cpp(176,11): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\akki2\breakout\externals\glm\test\core\core_func_integer_find_lsb.cpp(191,11): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\akki2\breakout\externals\glm\test\core\core_func_integer_find_lsb.cpp(208,13): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\akki2\breakout\externals\glm\test\core\core_func_integer_find_lsb.cpp(225,13): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Users\akki2\breakout\externals\glm\test\core\core_func_integer_find_lsb.cpp(241,13): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  core_func_integer_find_msb.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_func_integer_find_msb.cpp(92,8): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  core_func_matrix.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_func_matrix.cpp(1,10): error C1083: Cannot open include file: 'glm/matrix.hpp': No such file or directory
+  core_func_noise.cpp
+  core_func_packing.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_func_packing.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/type_precision.hpp': No such file or directory
+  core_func_swizzle.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_func_swizzle.cpp(3,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  core_func_trigonometric.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_func_trigonometric.cpp(1,10): error C1083: Cannot open include file: 'glm/trigonometric.hpp': No such file or directory
+  core_func_vector_relational.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_func_vector_relational.cpp(1,10): error C1083: Cannot open include file: 'glm/vec2.hpp': No such file or directory
+  Generating Code...
+  Compiling...
+  core_setup_force_cxx98.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_setup_force_cxx98.cpp(2,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  core_setup_message.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_setup_message.cpp(2,10): error C1083: Cannot open include file: 'glm/vec3.hpp': No such file or directory
+  core_setup_precision.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_setup_precision.cpp(3,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  core_type_aligned.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_aligned.cpp(1,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  core_type_cast.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_cast.cpp(1,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  core_type_ctor.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_ctor.cpp(2,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  core_type_float.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_float.cpp(1,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  core_type_int.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_int.cpp(1,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  core_type_length.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_length.cpp(1,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  core_type_mat2x2.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_mat2x2.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/epsilon.hpp': No such file or directory
+  core_type_mat2x3.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_mat2x3.cpp(1,10): error C1083: Cannot open include file: 'glm/vector_relational.hpp': No such file or directory
+  core_type_mat2x4.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_mat2x4.cpp(1,10): error C1083: Cannot open include file: 'glm/vector_relational.hpp': No such file or directory
+  core_type_mat3x2.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_mat3x2.cpp(1,10): error C1083: Cannot open include file: 'glm/vector_relational.hpp': No such file or directory
+  core_type_mat3x3.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_mat3x3.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/epsilon.hpp': No such file or directory
+  core_type_mat3x4.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_mat3x4.cpp(1,10): error C1083: Cannot open include file: 'glm/vector_relational.hpp': No such file or directory
+  core_type_mat4x2.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_mat4x2.cpp(1,10): error C1083: Cannot open include file: 'glm/vector_relational.hpp': No such file or directory
+  core_type_mat4x3.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_mat4x3.cpp(1,10): error C1083: Cannot open include file: 'glm/vector_relational.hpp': No such file or directory
+  core_type_mat4x4.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_mat4x4.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/epsilon.hpp': No such file or directory
+  core_type_vec1.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_vec1.cpp(2,10): error C1083: Cannot open include file: 'glm/vector_relational.hpp': No such file or directory
+  core_type_vec2.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_vec2.cpp(2,10): error C1083: Cannot open include file: 'glm/vector_relational.hpp': No such file or directory
+  Generating Code...
+  Compiling...
+  core_type_vec3.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_vec3.cpp(2,10): error C1083: Cannot open include file: 'glm/vector_relational.hpp': No such file or directory
+  core_type_vec4.cpp
+C:\Users\akki2\breakout\externals\glm\test\core\core_type_vec4.cpp(3,10): error C1083: Cannot open include file: 'glm/vector_relational.hpp': No such file or directory
+  dummy.cpp
+  gtc_bitfield.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_bitfield.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/bitfield.hpp': No such file or directory
+  gtc_color_space.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_color_space.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/color_space.hpp': No such file or directory
+  gtc_constants.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_constants.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/constants.hpp': No such file or directory
+  gtc_epsilon.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_epsilon.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/epsilon.hpp': No such file or directory
+  gtc_functions.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_functions.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/functions.hpp': No such file or directory
+  gtc_integer.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_integer.cpp(3,10): error C1083: Cannot open include file: 'glm/gtc/epsilon.hpp': No such file or directory
+  gtc_matrix_access.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_matrix_access.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/matrix_access.hpp': No such file or directory
+  gtc_matrix_integer.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_matrix_integer.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/matrix_integer.hpp': No such file or directory
+  gtc_matrix_inverse.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_matrix_inverse.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/matrix_inverse.hpp': No such file or directory
+  gtc_matrix_transform.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_matrix_transform.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/matrix_transform.hpp': No such file or directory
+  gtc_noise.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_noise.cpp(2,10): error C1083: Cannot open include file: 'glm/gtc/noise.hpp': No such file or directory
+  gtc_packing.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_packing.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/packing.hpp': No such file or directory
+  gtc_quaternion.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_quaternion.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/quaternion.hpp': No such file or directory
+  gtc_random.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_random.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/random.hpp': No such file or directory
+  gtc_reciprocal.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_reciprocal.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/reciprocal.hpp': No such file or directory
+  gtc_round.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_round.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/round.hpp': No such file or directory
+  gtc_type_aligned.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_type_aligned.cpp(2,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  Generating Code...
+  Compiling...
+  gtc_type_precision.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_type_precision.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/type_precision.hpp': No such file or directory
+  gtc_type_ptr.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_type_ptr.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/type_ptr.hpp': No such file or directory
+  gtc_ulp.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_ulp.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/ulp.hpp': No such file or directory
+  gtc_user_defined_types.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_user_defined_types.cpp(11,10): error C1083: Cannot open include file: 'glm/gtc/user_defined_type.hpp': No such file or directory
+  gtc_vec1.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtc\gtc_vec1.cpp(1,10): error C1083: Cannot open include file: 'glm/gtc/vec1.hpp': No such file or directory
+  gtx_associated_min_max.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_associated_min_max.cpp(2,10): error C1083: Cannot open include file: 'glm/gtc/type_precision.hpp': No such file or directory
+  gtx_closest_point.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_closest_point.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/closest_point.hpp': No such file or directory
+  gtx_color_encoding.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_color_encoding.cpp(1,10): error C1083: Cannot open include file: 'glm/gtx/color_encoding.hpp': No such file or directory
+  gtx_color_space.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_color_space.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/color_space.hpp': No such file or directory
+  gtx_color_space_YCoCg.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_color_space_YCoCg.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/color_space_YCoCg.hpp': No such file or directory
+  gtx_common.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_common.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/common.hpp': No such file or directory
+  gtx_compatibility.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_compatibility.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/compatibility.hpp': No such file or directory
+  gtx_component_wise.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_component_wise.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/component_wise.hpp': No such file or directory
+  gtx_dual_quaternion.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_dual_quaternion.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/dual_quaternion.hpp': No such file or directory
+  gtx_euler_angle.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_euler_angle.cpp(4,10): error C1083: Cannot open include file: 'glm/gtc/matrix_transform.hpp': No such file or directory
+  gtx_extend.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_extend.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/extend.hpp': No such file or directory
+  gtx_extended_min_max.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_extended_min_max.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/extended_min_max.hpp': No such file or directory
+  gtx_extented_min_max.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_extented_min_max.cpp(32,10): error C1083: Cannot open include file: 'glm/gtx/extended_min_max.hpp': No such file or directory
+  gtx_fast_exponential.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_fast_exponential.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/fast_exponential.hpp': No such file or directory
+  gtx_fast_square_root.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_fast_square_root.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/fast_square_root.hpp': No such file or directory
+  Generating Code...
+  Compiling...
+  gtx_fast_trigonometry.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_fast_trigonometry.cpp(2,10): error C1083: Cannot open include file: 'glm/gtc/type_precision.hpp': No such file or directory
+  gtx_gradient_paint.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_gradient_paint.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/gradient_paint.hpp': No such file or directory
+  gtx_handed_coordinate_space.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_handed_coordinate_space.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/handed_coordinate_space.hpp': No such file or directory
+  gtx_integer.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_integer.cpp(2,10): error C1083: Cannot open include file: 'glm/exponential.hpp': No such file or directory
+  gtx_intersect.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_intersect.cpp(2,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  gtx_int_10_10_10_2.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_int_10_10_10_2.cpp(10,10): error C1083: Cannot open include file: 'glm/gtc/type_precision.hpp': No such file or directory
+  gtx_io.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_io.cpp(2,10): error C1083: Cannot open include file: 'glm/gtc/type_precision.hpp': No such file or directory
+  gtx_log_base.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_log_base.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/log_base.hpp': No such file or directory
+  gtx_matrix_cross_product.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_matrix_cross_product.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/matrix_cross_product.hpp': No such file or directory
+  gtx_matrix_decompose.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_matrix_decompose.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/matrix_decompose.hpp': No such file or directory
+  gtx_matrix_interpolation.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_matrix_interpolation.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/matrix_interpolation.hpp': No such file or directory
+  gtx_matrix_major_storage.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_matrix_major_storage.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/matrix_major_storage.hpp': No such file or directory
+  gtx_matrix_operation.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_matrix_operation.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/matrix_operation.hpp': No such file or directory
+  gtx_matrix_query.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_matrix_query.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/matrix_query.hpp': No such file or directory
+  gtx_matrix_transform_2d.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_matrix_transform_2d.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/matrix_transform_2d.hpp': No such file or directory
+  gtx_mixed_product.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_mixed_product.cpp(10,10): error C1083: Cannot open include file: 'glm/gtc/type_precision.hpp': No such file or directory
+  gtx_norm.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_norm.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/norm.hpp': No such file or directory
+  gtx_normal.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_normal.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/normal.hpp': No such file or directory
+  gtx_normalize_dot.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_normalize_dot.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/normalize_dot.hpp': No such file or directory
+  gtx_number_precision.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_number_precision.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/number_precision.hpp': No such file or directory
+  Generating Code...
+  Compiling...
+  gtx_optimum_pow.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_optimum_pow.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/optimum_pow.hpp': No such file or directory
+  gtx_orthonormalize.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_orthonormalize.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/orthonormalize.hpp': No such file or directory
+  gtx_perpendicular.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_perpendicular.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/perpendicular.hpp': No such file or directory
+  gtx_polar_coordinates.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_polar_coordinates.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/polar_coordinates.hpp': No such file or directory
+  gtx_projection.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_projection.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/projection.hpp': No such file or directory
+  gtx_quaternion.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_quaternion.cpp(2,10): error C1083: Cannot open include file: 'glm/gtc/epsilon.hpp': No such file or directory
+  gtx_random.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_random.cpp(10,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  gtx_range.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_range.cpp(2,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  gtx_rotate_normalized_axis.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_rotate_normalized_axis.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/rotate_normalized_axis.hpp': No such file or directory
+  gtx_rotate_vector.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_rotate_vector.cpp(2,10): error C1083: Cannot open include file: 'glm/gtc/constants.hpp': No such file or directory
+  gtx_scalar_multiplication.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_scalar_multiplication.cpp(2,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  gtx_scalar_relational.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_scalar_relational.cpp(2,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  gtx_simd_mat4.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_simd_mat4.cpp(32,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  gtx_simd_vec4.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_simd_vec4.cpp(32,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  gtx_spline.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_spline.cpp(2,10): error C1083: Cannot open include file: 'glm/vec2.hpp': No such file or directory
+  gtx_string_cast.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_string_cast.cpp(2,10): error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  gtx_type_aligned.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_type_aligned.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/type_aligned.hpp': No such file or directory
+  gtx_type_trait.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_type_trait.cpp(2,10): error C1083: Cannot open include file: 'glm/vec4.hpp': No such file or directory
+  gtx_vector_angle.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_vector_angle.cpp(2,10): error C1083: Cannot open include file: 'glm/gtc/constants.hpp': No such file or directory
+  gtx_vector_query.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_vector_query.cpp(2,10): error C1083: Cannot open include file: 'glm/vec2.hpp': No such file or directory
+  Generating Code...
+  Compiling...
+  gtx_vec_swizzle.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_vec_swizzle.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/vec_swizzle.hpp': No such file or directory
+  gtx_wrap.cpp
+C:\Users\akki2\breakout\externals\glm\test\gtx\gtx_wrap.cpp(2,10): error C1083: Cannot open include file: 'glm/gtx/wrap.hpp': No such file or directory
+  alffplay.cpp
+C:\Users\akki2\breakout\externals\openal-soft\examples\alffplay.cpp(21,10): error C1083: Cannot open include file: 'libavcodec/avcodec.h': No such file or directory
+  main.cpp
+C:\Users\akki2\breakout\externals\openal-soft\utils\alsoft-config\mainwindow.h(4,10): error C1083: Cannot open include file: 'QMainWindow': No such file or directory
+  (compiling source file 'externals/openal-soft/utils/alsoft-config/main.cpp')
+  
+  mainwindow.cpp
+C:\Users\akki2\breakout\externals\openal-soft\utils\alsoft-config\mainwindow.cpp(2,10): error C1083: Cannot open include file: 'config.h': No such file or directory
+  resample_test.cpp
+C:\Users\akki2\breakout\externals\stb\tests\resample_test.cpp(63,10): error C1083: Cannot open include file: 'stb_image_resize.h': No such file or directory
+  stb_cpp.cpp
+C:\Users\akki2\breakout\externals\stb\tests\stb_cpp.cpp(9,10): error C1083: Cannot open include file: 'stb.h': No such file or directory
+  test_cpp_compilation.cpp
+C:\Users\akki2\breakout\externals\stb\tests\test_cpp_compilation.cpp(1,10): error C1083: Cannot open include file: 'stb_sprintf.h': No such file or directory
+  AssetsLoader.cpp
+C:\Users\akki2\breakout\src\graphics\ShaderType.h(3,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/AssetsLoader.cpp')
+  
+  AudioManager.cpp
+C:\Users\akki2\breakout\src\audio\AudioManager.h(4,10): error C1083: Cannot open include file: 'AL/al.h': No such file or directory
+  (compiling source file 'src/audio/AudioManager.cpp')
+  
+  Game.cpp
+C:\Users\akki2\breakout\src\Game.cpp(1,2): error C2014: preprocessor command must start as first nonwhite space
+C:\Users\akki2\breakout\src\graphics\ShaderType.h(3,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/Game.cpp')
+  
+  Ball.cpp
+C:\Users\akki2\breakout\src\graphics\Texture.h(3,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/game/Ball.cpp')
+  
+  Brick.cpp
+C:\Users\akki2\breakout\src\graphics\Texture.h(3,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/game/Brick.cpp')
+  
+  GameLevel.cpp
+C:\Users\akki2\breakout\src\graphics\ShaderType.h(3,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/game/GameLevel.cpp')
+  
+  GameObject.cpp
+C:\Users\akki2\breakout\src\graphics\Texture.h(3,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/game/GameObject.cpp')
+  
+  Player.cpp
+C:\Users\akki2\breakout\src\graphics\Texture.h(3,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/game/Player.cpp')
+  
+  PowerUp.cpp
+C:\Users\akki2\breakout\src\game\PowerUp.h(3,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/game/PowerUp.cpp')
+  
+  ParticleEmitter.cpp
+C:\Users\akki2\breakout\src\graphics\Texture.h(3,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/graphics/ParticleEmitter.cpp')
+  
+  PostProcessor.cpp
+C:\Users\akki2\breakout\src\graphics\PostProcessor.h(3,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/graphics/PostProcessor.cpp')
+  
+  Shader.cpp
+C:\Users\akki2\breakout\src\graphics\ShaderType.h(3,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/graphics/Shader.cpp')
+  
+  Generating Code...
+  Compiling...
+  ShaderProgram.cpp
+C:\Users\akki2\breakout\src\graphics\ShaderType.h(3,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/graphics/ShaderProgram.cpp')
+  
+  SpriteRenderer.cpp
+C:\Users\akki2\breakout\src\graphics\ShaderType.h(3,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/graphics/SpriteRenderer.cpp')
+  
+  TextRenderer.cpp
+C:\Users\akki2\breakout\src\graphics\TextRenderer.h(3,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/graphics/TextRenderer.cpp')
+  
+  Texture.cpp
+C:\Users\akki2\breakout\src\graphics\Texture.h(3,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/graphics/Texture.cpp')
+  
+  InputManager.cpp
+C:\Users\akki2\breakout\src\input\InputManager.cpp(3,10): error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory
+  main.cpp
+C:\Users\akki2\breakout\src\main.cpp(2,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  CollisionDetector.cpp
+C:\Users\akki2\breakout\src\physics\CollisionDetector.h(3,10): error C1083: Cannot open include file: 'glm/vec2.hpp': No such file or directory
+  (compiling source file 'src/physics/CollisionDetector.cpp')
+  
+  ResourceManager.cpp
+C:\Users\akki2\breakout\src\graphics\ShaderType.h(3,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/ResourceManager.cpp')
+  
+  FileManager.cpp
+C:\Users\akki2\breakout\src\utils\FileManager.h(4,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/utils/FileManager.cpp')
+  
+  Random.cpp
+  Window.cpp
+C:\Users\akki2\breakout\src\Window.h(4,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/Window.cpp')
+  
+  WindowManager.cpp
+C:\Users\akki2\breakout\src\Window.h(4,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'src/WindowManager.cpp')
+  
+  Generating Code...

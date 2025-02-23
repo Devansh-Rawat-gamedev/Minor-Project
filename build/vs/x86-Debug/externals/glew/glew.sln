@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{2B61A593-C977-34EA-8F61-7A7A3948C69A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{68F7CFC7-D030-3986-9C6C-4D376722CB75}"
+	ProjectSection(ProjectDependencies) = postProject
+		{463901EC-23BB-315C-9383-9F4181236DA3} = {463901EC-23BB-315C-9383-9F4181236DA3}
+		{D44CF6FC-4C3C-3E3A-91CF-3D2E21F0EC8D} = {D44CF6FC-4C3C-3E3A-91CF-3D2E21F0EC8D}
+		{844D1EBC-392F-3F89-8F6F-B8CB106064D0} = {844D1EBC-392F-3F89-8F6F-B8CB106064D0}
+		{6A437AFF-403D-3878-B1B1-A16F62DF8FDF} = {6A437AFF-403D-3878-B1B1-A16F62DF8FDF}
+		{E38A610A-324D-3251-896F-3686AB1C2EAE} = {E38A610A-324D-3251-896F-3686AB1C2EAE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcxproj", "{A74B8126-E4A8-3C81-8AB9-5948F015FC2B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{68F7CFC7-D030-3986-9C6C-4D376722CB75} = {68F7CFC7-D030-3986-9C6C-4D376722CB75}
+		{463901EC-23BB-315C-9383-9F4181236DA3} = {463901EC-23BB-315C-9383-9F4181236DA3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "..\..\\ZERO_CHECK.vcxproj", "{463901EC-23BB-315C-9383-9F4181236DA3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libglew_shared", "libglew_shared.vcxproj", "{D44CF6FC-4C3C-3E3A-91CF-3D2E21F0EC8D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{463901EC-23BB-315C-9383-9F4181236DA3} = {463901EC-23BB-315C-9383-9F4181236DA3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libglew_static", "libglew_static.vcxproj", "{844D1EBC-392F-3F89-8F6F-B8CB106064D0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{463901EC-23BB-315C-9383-9F4181236DA3} = {463901EC-23BB-315C-9383-9F4181236DA3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libglewmx_shared", "libglewmx_shared.vcxproj", "{6A437AFF-403D-3878-B1B1-A16F62DF8FDF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{463901EC-23BB-315C-9383-9F4181236DA3} = {463901EC-23BB-315C-9383-9F4181236DA3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libglewmx_static", "libglewmx_static.vcxproj", "{E38A610A-324D-3251-896F-3686AB1C2EAE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{463901EC-23BB-315C-9383-9F4181236DA3} = {463901EC-23BB-315C-9383-9F4181236DA3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68F7CFC7-D030-3986-9C6C-4D376722CB75}.Debug|x64.ActiveCfg = Debug|x64
+		{68F7CFC7-D030-3986-9C6C-4D376722CB75}.Debug|x64.Build.0 = Debug|x64
+		{A74B8126-E4A8-3C81-8AB9-5948F015FC2B}.Debug|x64.ActiveCfg = Debug|x64
+		{463901EC-23BB-315C-9383-9F4181236DA3}.Debug|x64.ActiveCfg = Debug|x64
+		{463901EC-23BB-315C-9383-9F4181236DA3}.Debug|x64.Build.0 = Debug|x64
+		{D44CF6FC-4C3C-3E3A-91CF-3D2E21F0EC8D}.Debug|x64.ActiveCfg = Debug|x64
+		{D44CF6FC-4C3C-3E3A-91CF-3D2E21F0EC8D}.Debug|x64.Build.0 = Debug|x64
+		{844D1EBC-392F-3F89-8F6F-B8CB106064D0}.Debug|x64.ActiveCfg = Debug|x64
+		{844D1EBC-392F-3F89-8F6F-B8CB106064D0}.Debug|x64.Build.0 = Debug|x64
+		{6A437AFF-403D-3878-B1B1-A16F62DF8FDF}.Debug|x64.ActiveCfg = Debug|x64
+		{6A437AFF-403D-3878-B1B1-A16F62DF8FDF}.Debug|x64.Build.0 = Debug|x64
+		{E38A610A-324D-3251-896F-3686AB1C2EAE}.Debug|x64.ActiveCfg = Debug|x64
+		{E38A610A-324D-3251-896F-3686AB1C2EAE}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68F7CFC7-D030-3986-9C6C-4D376722CB75} = {2B61A593-C977-34EA-8F61-7A7A3948C69A}
+		{A74B8126-E4A8-3C81-8AB9-5948F015FC2B} = {2B61A593-C977-34EA-8F61-7A7A3948C69A}
+		{463901EC-23BB-315C-9383-9F4181236DA3} = {2B61A593-C977-34EA-8F61-7A7A3948C69A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {122AAE12-EDED-3413-9F51-58B2D4A40477}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

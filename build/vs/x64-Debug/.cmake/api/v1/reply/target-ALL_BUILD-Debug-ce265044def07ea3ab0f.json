@@ -1,0 +1,55 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"externals/openal-soft/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "OpenAL::@80c645107d41ee717a65"
+		},
+		{
+			"id" : "openal-info::@80c645107d41ee717a65"
+		},
+		{
+			"id" : "makehrtf::@80c645107d41ee717a65"
+		},
+		{
+			"id" : "bsincgen::@80c645107d41ee717a65"
+		},
+		{
+			"id" : "altonegen::@80c645107d41ee717a65"
+		},
+		{
+			"id" : "alrecord::@80c645107d41ee717a65"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@80c645107d41ee717a65",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "externals/openal-soft",
+		"source" : "externals/openal-soft"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

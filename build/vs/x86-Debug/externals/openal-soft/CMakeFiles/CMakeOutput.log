@@ -1,0 +1,49 @@
+Determining if the waveOutOpen exist in winmm passed with the following output:
+Change Dir: 'C:/Users/akki2/breakout/build/vs/x86-Debug/externals/openal-soft/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5c842.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+MSBuild version 17.8.5+b5265ef37 for .NET Framework
+Build started 27-11-2024 6.34.12 PM.
+
+Project "C:\Users\akki2\breakout\build\vs\x86-Debug\externals\openal-soft\CMakeFiles\CMakeTmp\cmTC_5c842.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5c842.dir\Debug\".
+  Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+  Creating directory "C:\Users\akki2\breakout\build\vs\x86-Debug\externals\openal-soft\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5c842.dir\Debug\cmTC_5c842.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5c842.dir\Debug\cmTC_5c842.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Touching "cmTC_5c842.dir\Debug\cmTC_5c842.tlog\unsuccessfulbuild".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c842.dir\Debug\\" /Fd"cmTC_5c842.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\akki2\breakout\build\vs\x86-Debug\externals\openal-soft\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33134 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c842.dir\Debug\\" /Fd"cmTC_5c842.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\akki2\breakout\build\vs\x86-Debug\externals\openal-soft\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\akki2\breakout\build\vs\x86-Debug\externals\openal-soft\CMakeFiles\CMakeTmp\Debug\cmTC_5c842.exe" /INCREMENTAL /ILK:"cmTC_5c842.dir\Debug\cmTC_5c842.ilk" /NOLOGO winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/akki2/breakout/build/vs/x86-Debug/externals/openal-soft/CMakeFiles/CMakeTmp/Debug/cmTC_5c842.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/akki2/breakout/build/vs/x86-Debug/externals/openal-soft/CMakeFiles/CMakeTmp/Debug/cmTC_5c842.lib" /MACHINE:X64  /machine:x64 cmTC_5c842.dir\Debug\CheckSymbolExists.obj
+  cmTC_5c842.vcxproj -> C:\Users\akki2\breakout\build\vs\x86-Debug\externals\openal-soft\CMakeFiles\CMakeTmp\Debug\cmTC_5c842.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_5c842.dir\Debug\cmTC_5c842.tlog\unsuccessfulbuild".
+  Touching "cmTC_5c842.dir\Debug\cmTC_5c842.tlog\cmTC_5c842.lastbuildstate".
+Done Building Project "C:\Users\akki2\breakout\build\vs\x86-Debug\externals\openal-soft\CMakeFiles\CMakeTmp\cmTC_5c842.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+File C:/Users/akki2/breakout/build/vs/x86-Debug/externals/openal-soft/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <mmsystem.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+  cmakeRequireSymbol(0,&waveOutOpen);
+  return 0;
+}
+

@@ -1,0 +1,251 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"externals/openal-soft/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1280,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1289,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1293,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1301,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1329,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1338,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1348,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1378,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1400,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1417,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"externals/openal-soft/Debug/OpenAL32.lib"
+			],
+			"targetId" : "OpenAL::@80c645107d41ee717a65",
+			"targetIndex" : 5,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"externals/openal-soft/Debug/OpenAL32.dll"
+			],
+			"targetId" : "OpenAL::@80c645107d41ee717a65",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/OpenAL",
+			"exportName" : "OpenAL",
+			"exportTargets" : 
+			[
+				{
+					"id" : "OpenAL::@80c645107d41ee717a65",
+					"index" : 5
+				}
+			],
+			"paths" : 
+			[
+				"externals/openal-soft/CMakeFiles/Export/7997f1405615f9851461070a24c70e81/OpenALConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/AL",
+			"paths" : 
+			[
+				"externals/openal-soft/include/AL/al.h",
+				"externals/openal-soft/include/AL/alc.h",
+				"externals/openal-soft/include/AL/alext.h",
+				"externals/openal-soft/include/AL/efx.h",
+				"externals/openal-soft/include/AL/efx-creative.h",
+				"externals/openal-soft/include/AL/efx-presets.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"build/vs/x64-Debug/externals/openal-soft/openal.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "share/openal",
+			"paths" : 
+			[
+				"externals/openal-soft/alsoftrc.sample"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "share/openal/hrtf",
+			"paths" : 
+			[
+				"externals/openal-soft/hrtf/default-44100.mhr",
+				"externals/openal-soft/hrtf/default-48000.mhr"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "share/openal/presets",
+			"paths" : 
+			[
+				"externals/openal-soft/presets/3D7.1.ambdec",
+				"externals/openal-soft/presets/hexagon.ambdec",
+				"externals/openal-soft/presets/itu5.1.ambdec",
+				"externals/openal-soft/presets/rectangle.ambdec",
+				"externals/openal-soft/presets/square.ambdec",
+				"externals/openal-soft/presets/presets.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"externals/openal-soft/Debug/openal-info.exe"
+			],
+			"targetId" : "openal-info::@80c645107d41ee717a65",
+			"targetIndex" : 19,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"externals/openal-soft/Debug/makehrtf.exe"
+			],
+			"targetId" : "makehrtf::@80c645107d41ee717a65",
+			"targetIndex" : 18,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"externals/openal-soft/Debug/bsincgen.exe"
+			],
+			"targetId" : "bsincgen::@80c645107d41ee717a65",
+			"targetIndex" : 10,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"externals/openal-soft/Debug/altonegen.exe"
+			],
+			"targetId" : "altonegen::@80c645107d41ee717a65",
+			"targetIndex" : 8,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"externals/openal-soft/Debug/alrecord.exe"
+			],
+			"targetId" : "alrecord::@80c645107d41ee717a65",
+			"targetIndex" : 7,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "externals/openal-soft",
+		"source" : "externals/openal-soft"
+	}
+}

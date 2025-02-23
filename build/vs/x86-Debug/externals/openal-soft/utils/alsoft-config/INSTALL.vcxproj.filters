@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\akki2\breakout\build\vs\x86-Debug\CMakeFiles\2ae83c3cded5007730c4d4f49c45cae2\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F25E08F7-6603-3D8C-9B14-8AF10AE6F5C6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

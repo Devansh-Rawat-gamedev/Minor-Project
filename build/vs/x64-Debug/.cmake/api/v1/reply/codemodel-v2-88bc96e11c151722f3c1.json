@@ -1,0 +1,384 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						6,
+						9,
+						12
+					]
+				},
+				{
+					"build" : "externals/glfw",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-externals.glfw-Debug-bdc41f5d2144d355c70f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "externals/glfw",
+					"targetIndexes" : 
+					[
+						1,
+						20
+					]
+				},
+				{
+					"build" : "externals/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-externals.glfw.src-Debug-ae1703bb79624bf7bebf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "externals/glfw/src",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "externals/glew",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-externals.glew-Debug-01a31d9331c23281721c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "externals/glew",
+					"targetIndexes" : 
+					[
+						2,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "externals/openal-soft",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-externals.openal-soft-Debug-685af243bca400295057.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "externals/openal-soft",
+					"targetIndexes" : 
+					[
+						3,
+						5,
+						7,
+						8,
+						10,
+						11,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "externals/openal-soft/utils/alsoft-config",
+					"jsonFile" : "directory-externals.openal-soft.utils.alsoft-config-Debug-2b599dec13d4943e21f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "externals/openal-soft/utils/alsoft-config",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "breakout",
+					"targetIndexes" : 
+					[
+						0,
+						6,
+						9,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						13,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "OpenAL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						5,
+						7,
+						8,
+						10,
+						11,
+						18,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "alsoft-config",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-95dd62340aee3b44f872.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@1454fd426018b96e2050",
+					"jsonFile" : "target-ALL_BUILD-Debug-1c2e8cb8a84a1aecf666.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@96d799d44580821290c4",
+					"jsonFile" : "target-ALL_BUILD-Debug-e7cfb4ddedbb558e9542.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@80c645107d41ee717a65",
+					"jsonFile" : "target-ALL_BUILD-Debug-ce265044def07ea3ab0f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@c6c6c16983cb0031418b",
+					"jsonFile" : "target-ALL_BUILD-Debug-ddac9fc06a40fb3bfef0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "OpenAL::@80c645107d41ee717a65",
+					"jsonFile" : "target-OpenAL-Debug-42123e7613329b35829c.json",
+					"name" : "OpenAL",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-ae5d2cca302f1f8c7d71.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "alrecord::@80c645107d41ee717a65",
+					"jsonFile" : "target-alrecord-Debug-7f5548ced2fdb9933b45.json",
+					"name" : "alrecord",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "altonegen::@80c645107d41ee717a65",
+					"jsonFile" : "target-altonegen-Debug-d91ee731a595f47d663c.json",
+					"name" : "altonegen",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "breakout::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-breakout-Debug-96d9d97efcd4204818cd.json",
+					"name" : "breakout",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bsincgen::@80c645107d41ee717a65",
+					"jsonFile" : "target-bsincgen-Debug-df1f99dd9f82c5357679.json",
+					"name" : "bsincgen",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "build_version::@80c645107d41ee717a65",
+					"jsonFile" : "target-build_version-Debug-db981daebbf6c9860f9e.json",
+					"name" : "build_version",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "glew::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glew-Debug-94e06593be25b71fd26f.json",
+					"name" : "glew",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@227702dfcbf180102d9d",
+					"jsonFile" : "target-glfw-Debug-2a81935b2503d854e5a6.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libglew_shared::@96d799d44580821290c4",
+					"jsonFile" : "target-libglew_shared-Debug-0e9a70e1191561e19f91.json",
+					"name" : "libglew_shared",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libglew_static::@96d799d44580821290c4",
+					"jsonFile" : "target-libglew_static-Debug-4695f05a360b89373f9e.json",
+					"name" : "libglew_static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libglewmx_shared::@96d799d44580821290c4",
+					"jsonFile" : "target-libglewmx_shared-Debug-abc785a4d742e7a98a86.json",
+					"name" : "libglewmx_shared",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libglewmx_static::@96d799d44580821290c4",
+					"jsonFile" : "target-libglewmx_static-Debug-92be5c338a5d5c936a62.json",
+					"name" : "libglewmx_static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "makehrtf::@80c645107d41ee717a65",
+					"jsonFile" : "target-makehrtf-Debug-ec29f1c884620967379a.json",
+					"name" : "makehrtf",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "openal-info::@80c645107d41ee717a65",
+					"jsonFile" : "target-openal-info-Debug-e5c427bdcce103661109.json",
+					"name" : "openal-info",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@1454fd426018b96e2050",
+					"jsonFile" : "target-uninstall-Debug-7304d7c32806c17baaf9.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/akki2/breakout/build/vs/x64-Debug",
+		"source" : "C:/Users/akki2/breakout"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

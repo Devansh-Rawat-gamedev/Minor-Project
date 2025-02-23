@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\akki2\breakout\build\vs\x64-Debug\CMakeFiles\d2e3d80d5b3226a86167961a1d3ce311\build_version.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\akki2\breakout\externals\openal-soft\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\akki2\breakout\build\vs\x64-Debug\externals\openal-soft\CMakeFiles\build_version" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6C3094D0-AE38-3CA4-BCA9-2A7C30F6400F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

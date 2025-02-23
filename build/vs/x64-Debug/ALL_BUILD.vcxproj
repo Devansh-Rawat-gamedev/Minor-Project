@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C84D68AA-80C1-3F2C-972B-31F1E705C820}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\akki2\breakout\externals\glew\include;C:\Users\akki2\breakout\externals\openal-soft\include;C:\Users\akki2\breakout\externals\glm;C:\Users\akki2\breakout\externals\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\akki2\breakout\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/akki2/breakout/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/akki2/breakout -BC:/Users/akki2/breakout/build/vs/x64-Debug --check-stamp-file C:/Users/akki2/breakout/build/vs/x64-Debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\akki2\breakout\build\vs\x64-Debug\CMakeFiles\3.27.2-msvc1\CMakeCCompiler.cmake;C:\Users\akki2\breakout\build\vs\x64-Debug\CMakeFiles\3.27.2-msvc1\CMakeCXXCompiler.cmake;C:\Users\akki2\breakout\build\vs\x64-Debug\CMakeFiles\3.27.2-msvc1\CMakeRCCompiler.cmake;C:\Users\akki2\breakout\build\vs\x64-Debug\CMakeFiles\3.27.2-msvc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\akki2\breakout\build\vs\x64-Debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\akki2\breakout\build\vs\x64-Debug\ZERO_CHECK.vcxproj">
+      <Project>{991A3876-B57A-3D4C-BFFD-9741AC608ABB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\akki2\breakout\build\vs\x64-Debug\externals\openal-soft\OpenAL.vcxproj">
+      <Project>{C23C7622-B6B5-3525-AED5-A18467A53A02}</Project>
+      <Name>OpenAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\akki2\breakout\build\vs\x64-Debug\externals\openal-soft\alrecord.vcxproj">
+      <Project>{17EFBF6A-994C-3055-BE46-D2B62134BDF5}</Project>
+      <Name>alrecord</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\akki2\breakout\build\vs\x64-Debug\externals\openal-soft\altonegen.vcxproj">
+      <Project>{D0350F30-7845-390B-AC7F-A1398478C1FD}</Project>
+      <Name>altonegen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\akki2\breakout\build\vs\x64-Debug\breakout.vcxproj">
+      <Project>{073454F8-E315-3C2E-8B4D-1EEA56A0F18D}</Project>
+      <Name>breakout</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\akki2\breakout\build\vs\x64-Debug\externals\openal-soft\bsincgen.vcxproj">
+      <Project>{1C762F93-8F68-3EF2-847A-11B9517D5E30}</Project>
+      <Name>bsincgen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\akki2\breakout\build\vs\x64-Debug\glew.vcxproj">
+      <Project>{40441407-EDBB-348F-8087-8D4FE9815C9F}</Project>
+      <Name>glew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\akki2\breakout\build\vs\x64-Debug\externals\glfw\src\glfw.vcxproj">
+      <Project>{57CD756F-34D8-35DF-ACDB-24AEBEE12DE6}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\akki2\breakout\build\vs\x64-Debug\externals\glew\libglew_shared.vcxproj">
+      <Project>{D643A644-B0A9-3513-8C21-91AE73393AA6}</Project>
+      <Name>libglew_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\akki2\breakout\build\vs\x64-Debug\externals\glew\libglew_static.vcxproj">
+      <Project>{A76CA9B1-7A9D-392F-98D2-CC7F1ADF600A}</Project>
+      <Name>libglew_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\akki2\breakout\build\vs\x64-Debug\externals\glew\libglewmx_shared.vcxproj">
+      <Project>{B694B6EC-70F3-3566-AE28-357AD67775E5}</Project>
+      <Name>libglewmx_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\akki2\breakout\build\vs\x64-Debug\externals\glew\libglewmx_static.vcxproj">
+      <Project>{A5E49D7C-1514-33AD-831F-67BF4B740218}</Project>
+      <Name>libglewmx_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\akki2\breakout\build\vs\x64-Debug\externals\openal-soft\makehrtf.vcxproj">
+      <Project>{9E9F7E88-6EBF-3DDB-B741-3DC684A930F4}</Project>
+      <Name>makehrtf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\akki2\breakout\build\vs\x64-Debug\externals\openal-soft\openal-info.vcxproj">
+      <Project>{134BCA38-EFD5-36DF-A11F-27F5AC584F7B}</Project>
+      <Name>openal-info</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

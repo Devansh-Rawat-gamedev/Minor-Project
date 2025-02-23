@@ -1,0 +1,24 @@
+^C:\USERS\AKKI2\BREAKOUT\BUILD\VS\X86-DEBUG\CMAKEFILES\8A7FC109FF965D2EE80D63826F451621\BUILD_VERSION.RULE
+setlocal
+cd C:\Users\akki2\breakout\externals\openal-soft
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -D "GIT_EXECUTABLE=C:/Program Files/Git/cmd/git.exe" -D LIB_VERSION=1.18.0 -D SRC=C:/Users/akki2/breakout/externals/openal-soft/version.h.in -D DST=C:/Users/akki2/breakout/build/vs/x86-Debug/externals/openal-soft/version.h -P C:/Users/akki2/breakout/externals/openal-soft/version.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AKKI2\BREAKOUT\EXTERNALS\OPENAL-SOFT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/akki2/breakout -BC:/Users/akki2/breakout/build/vs/x86-Debug --check-stamp-file C:/Users/akki2/breakout/build/vs/x86-Debug/externals/openal-soft/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

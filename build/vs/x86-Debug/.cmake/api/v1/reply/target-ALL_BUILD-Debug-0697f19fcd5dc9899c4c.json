@@ -1,0 +1,49 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"externals/glew/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "libglew_shared::@96d799d44580821290c4"
+		},
+		{
+			"id" : "libglew_static::@96d799d44580821290c4"
+		},
+		{
+			"id" : "libglewmx_shared::@96d799d44580821290c4"
+		},
+		{
+			"id" : "libglewmx_static::@96d799d44580821290c4"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@96d799d44580821290c4",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "externals/glew",
+		"source" : "externals/glew"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\akki2\breakout\build\vs\x86-Debug\CMakeFiles\7acb46845536ed51f8ff2ae9f746434e\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\akki2\breakout\externals\glfw\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\akki2\breakout\build\vs\x86-Debug\externals\glfw\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F25E08F7-6603-3D8C-9B14-8AF10AE6F5C6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

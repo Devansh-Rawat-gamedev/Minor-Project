@@ -1,0 +1,76 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "breakout::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "glfw::@227702dfcbf180102d9d"
+		},
+		{
+			"id" : "libglew_static::@96d799d44580821290c4"
+		},
+		{
+			"id" : "libglewmx_static::@96d799d44580821290c4"
+		},
+		{
+			"id" : "OpenAL::@80c645107d41ee717a65"
+		},
+		{
+			"id" : "openal-info::@80c645107d41ee717a65"
+		},
+		{
+			"id" : "makehrtf::@80c645107d41ee717a65"
+		},
+		{
+			"id" : "glew::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "libglew_shared::@96d799d44580821290c4"
+		},
+		{
+			"id" : "libglewmx_shared::@96d799d44580821290c4"
+		},
+		{
+			"id" : "bsincgen::@80c645107d41ee717a65"
+		},
+		{
+			"id" : "altonegen::@80c645107d41ee717a65"
+		},
+		{
+			"id" : "alrecord::@80c645107d41ee717a65"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

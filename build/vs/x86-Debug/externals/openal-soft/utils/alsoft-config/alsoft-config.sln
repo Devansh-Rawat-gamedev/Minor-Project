@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{2B61A593-C977-34EA-8F61-7A7A3948C69A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{68F7CFC7-D030-3986-9C6C-4D376722CB75}"
+	ProjectSection(ProjectDependencies) = postProject
+		{463901EC-23BB-315C-9383-9F4181236DA3} = {463901EC-23BB-315C-9383-9F4181236DA3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcxproj", "{A74B8126-E4A8-3C81-8AB9-5948F015FC2B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{68F7CFC7-D030-3986-9C6C-4D376722CB75} = {68F7CFC7-D030-3986-9C6C-4D376722CB75}
+		{463901EC-23BB-315C-9383-9F4181236DA3} = {463901EC-23BB-315C-9383-9F4181236DA3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "..\..\..\..\\ZERO_CHECK.vcxproj", "{463901EC-23BB-315C-9383-9F4181236DA3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68F7CFC7-D030-3986-9C6C-4D376722CB75}.Debug|x64.ActiveCfg = Debug|x64
+		{68F7CFC7-D030-3986-9C6C-4D376722CB75}.Debug|x64.Build.0 = Debug|x64
+		{A74B8126-E4A8-3C81-8AB9-5948F015FC2B}.Debug|x64.ActiveCfg = Debug|x64
+		{463901EC-23BB-315C-9383-9F4181236DA3}.Debug|x64.ActiveCfg = Debug|x64
+		{463901EC-23BB-315C-9383-9F4181236DA3}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68F7CFC7-D030-3986-9C6C-4D376722CB75} = {2B61A593-C977-34EA-8F61-7A7A3948C69A}
+		{A74B8126-E4A8-3C81-8AB9-5948F015FC2B} = {2B61A593-C977-34EA-8F61-7A7A3948C69A}
+		{463901EC-23BB-315C-9383-9F4181236DA3} = {2B61A593-C977-34EA-8F61-7A7A3948C69A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EFE703D-1FB2-35B9-9D2C-E762F5893E76}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
